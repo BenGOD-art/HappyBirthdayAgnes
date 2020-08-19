@@ -1,0 +1,149 @@
+* {
+    box-sizing: ;
+    : 100vh;
+}
+
+.div {
+    width: 200px;
+    height: 100px;
+    color: white;
+    margin: 10px;
+}
+
+.transition {
+    background: red;
+    transition: all 2s ease-in-out;
+    animation-name: call;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    text-shadow: aqua;
+}
+
+.transition:hover {
+    background: yellow;
+    transform: translate(20px, 10px);
+    color: blue
+}
+
+.animation {
+    background: blue;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(10px);
+        background: red;
+        color: red;
+    }
+    20% {
+        transform: translatey(15px);
+        background: forestgreen;
+        color: blue;
+    }
+    30% {
+        transform: translateY(30px);
+        background: rgb(245, 76, 147);
+        color: gold;
+    }
+    40% {
+        transform: translateY(25px);
+        background: rgb(126, 27, 172);
+        color: rgb(255, 255, 255);
+    }
+    50% {
+        transform: translateY(30rem);
+        background: rgb(251, 255, 0);
+        color: floralwhite;
+    }
+    60% {
+        transform: translatex(30px);
+        background: rgb(42, 168, 241);
+        color: palevioletred;
+    }
+    70% {
+        transform: translateY(15px);
+        background: rgb(241, 69, 190);
+        color: chocolate;
+    }
+    80% {
+        transform: translatex(15.96px);
+        background: rgb(65, 66, 16);
+        color: red;
+    }
+    90% {
+        transform: translateY(25px);
+        background: rgba(53, 108, 211, 0.678);
+        color: palevioletred;
+    }
+    95% {
+        transform: translatey(10px);
+        background: rgb(226, 224, 119);
+        color: blue;
+    }
+    100% {
+        transform: translateY(25px);
+        background: rgb(255, 0, 140);
+        color: red;
+    }
+}
+
+@keyframes call {
+    0% {
+        transform: translateY(10px);
+        background: red;
+        color: red;
+    }
+    20% {
+        transform: translatey(15px);
+        background: forestgreen;
+        color: blue;
+    }
+    30% {
+        transform: translateY(30px);
+        background: rgb(245, 76, 147);
+        color: gold;
+    }
+    40% {
+        transform: translateY(25px);
+        background: rgb(126, 27, 172);
+        color: rgb(255, 255, 255);
+    }
+    50% {
+        transform: translateY(30rem);
+        background: rgb(251, 255, 0);
+        color: floralwhite;
+    }
+    60% {
+        transform: translatex(30px);
+        background: rgb(42, 168, 241);
+        color: palevioletred;
+    }
+    70% {
+        transform: translateY(15px);
+        background: rgb(241, 69, 190);
+        color: chocolate;
+    }
+    80% {
+        transform: translatex(15.96px);
+        background: rgb(65, 66, 16);
+        color: red;
+    }
+    90% {
+        transform: translateY(25px);
+        background: rgba(53, 108, 211, 0.678);
+        color: palevioletred;
+    }
+    95% {
+        transform: translatey(10px);
+        background: rgb(226, 224, 119);
+        color: blue;
+    }
+    100% {
+        transform: translateY(25px);
+        background: rgb(255, 0, 140);
+        color: red;
+    }
+}
